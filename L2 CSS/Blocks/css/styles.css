@@ -1,0 +1,63 @@
+/* CSS for Index */
+
+body{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+
+.topClass{
+  height: 200px;
+  width:200px;
+  background-color:yellow;
+  border: solid 10px;
+  padding: 20px;
+}
+
+.middleClass{
+  height: 200px;
+  width:200px;
+  background-color:red;
+  border: solid 20px;
+  margin-left: 260px;
+}
+
+.bottomClass{
+  height: 200px;
+  width:200px;
+  background-color: blue;
+  border: solid 10px;
+  margin-left: 500px;
+}
+
+/* CSS for Index-2 */
+
+.topBox{
+  height: 200px;
+  width:200px;
+  background-color:yellow;
+  position: absolute;
+
+}
+
+.middleBox{
+  height: 200px;
+  width:200px;
+  background-color:red;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+
+}
+
+.bottomBox{
+  height: 200px;
+  width:200px;
+  background-color: blue;
+  position: absolute;
+  left: 400px;
+  top: 400px;
+
+}

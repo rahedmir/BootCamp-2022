@@ -1,0 +1,59 @@
+Download Atom
+https://atom.io
+---------------------------------------------
+
+Atom Plugins
+
+    atom-ternjs
+
+Adds code intelligence to Atom.
+
+https://atom.io/packages/atom-ternjs
+
+---------------------------------------------
+
+    autoclose-html-plus
+
+It will help to automatically close HTML tags.
+
+https://atom.io/packages/autoclose-html-plus
+
+---------------------------------------------
+
+    emmet
+
+Adds code expansion to Atom.
+
+https://atom.io/packages/emmet
+
+---------------------------------------------
+
+    ssslint
+
+Adds CSS error checking abilities to Atom.
+
+https://atom.io/packages/csslint
+
+---------------------------------------------
+
+    pigments
+
+Adds the ability to display colour in Atom code files.
+
+https://atom.io/packages/pigments
+
+---------------------------------------------
+
+    language-ejs
+
+Adds EJS language support to Atom.
+
+https://atom.io/packages/language-ejs
+
+---------------------------------------------
+
+    atom-beautify
+
+Helps to automatically format code in Atom.
+
+https://atom.io/packages/atom-beautify
