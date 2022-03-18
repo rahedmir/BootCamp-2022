@@ -1,0 +1,312 @@
+/* Global Selectors */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #727272;
+}
+
+em {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: #212529;
+}
+
+/* ID Selectors */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  position: static;
+  z-index: 1;
+}
+
+#features {
+  margin-top: -150px;
+  margin-bottom: 80px;
+  padding-top: 80px;
+  text-align: center;
+  background-color: #fff;
+  position: static;
+}
+
+#test {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 80px 10px 80px 10px;
+}
+
+#press {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 80px;
+}
+
+#pricing {
+  margin: 80px;
+  text-align: center;
+}
+
+#cta {
+  text-align: center;
+  color: #fff;
+  background-color: #ff4c68;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Class Selectors */
+.container-fluid {
+  padding: 3% 9%;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  padding-bottom: 40px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.btn {
+  margin: 50px 10px 80px 10px;
+}
+
+.rotate-img {
+  transform: rotate(25deg);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+
+.fas {
+  margin-bottom: 40px;
+  color: #FF4C68;
+}
+
+.fa-check-circle:hover {
+  color: #FF0930;
+}
+
+.fa-bullseye:hover {
+  color: #FF0930;
+}
+
+.fa-heart:hover {
+  color: #FF0930;
+}
+
+.spacing {
+  margin: 40px auto 40px auto;
+  padding: 4%;
+}
+
+.test-img {
+  width: 100px;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 20px 10px 20px;
+}
+
+.pricing-plan {
+  margin: 15px auto 80px auto;
+}
+
+.card {
+  height: 26rem;
+}
+
+.card-spacing {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.card-footer {
+  height: 80px;
+}
+
+.btn-card {
+  margin: auto;
+  margin-top: 8px;
+}
+
+.pd {
+  padding-bottom: 15px;
+}
+
+.fm {
+  padding: 2px 4px 15px 4px;
+}
+
+.fa-facebook-square:hover {
+  color: #FF4C68;
+}
+
+.fa-twitter-square:hover {
+  color: #FF4C68;
+}
+
+.fa-instagram-square:hover {
+  color: #FF4C68;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 480px) {
+  .navbar {
+    text-align: left;
+  }
+
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-bottom: 60px;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    margin: 10px 10px 1px 10px;
+  }
+
+  .btn-2 {
+    margin-bottom: 80px;
+  }
+
+  #pricing {
+    margin: 10px;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .card {
+    width: 16rem;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .btn-card {
+    margin: auto;
+    margin-top: 6px;
+  }
+
+  .test-img {
+    margin: 9px;
+  }
+
+  .min-pad {
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 417px) and (max-width: 476px) {
+  .rotate-img {
+    padding-top: 80px;
+    margin-bottom: 50px;
+    margin: auto;
+  }
+
+  .btn-2 {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 477px) and (max-width: 480px) {
+  .btn-1 {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 964px) {
+  h1 {
+    font-size: 2.6rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    margin: 8px;
+    margin-bottom: 100px;
+  }
+
+  .navbar {
+    padding-bottom: 10px;
+  }
+
+  .container-fluid {
+    padding: 3% 9%;
+    padding-bottom: 80px;
+  }
+
+  #features {
+    margin-top: -100px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    text-align: center;
+    background-color: #fff;
+    position: static;
+  }
+
+  .rotate-img {
+    width: 75%;
+  }
+
+  .min-pad {
+    padding-bottom: 40px;
+  }
+}
